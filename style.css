@@ -1,0 +1,121 @@
+
+#logoshop{
+    text-align: right;
+    position: absolute;left:97%;
+}
+#logoshop a i{
+    font-size: 17px;
+}
+#logoshop a i:hover{color: gray;
+}
+
+
+.logo{
+    text-align: center;
+    font-family: space age;
+    position: absolute;top: 50%;left: 50%;
+}
+div h1{
+    position: absolute;top: 60%;left: 6%; 
+    font-family: Good Times;   
+    
+}
+.circle{
+    background-color: yellow;
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;top: 31%;left: 49.5%;    
+    animation: bgcolor infinite 6s;
+   }
+/*??????????????????????color change????????????????????*/
+@keyframes bgcolor{
+    0%{
+        background: rgb(212, 248, 4);
+    }
+    20%{
+        background: red;
+    }
+    40%{
+        background:orange ;
+    }
+    60%{
+        background:rgb(226, 28, 104) ;
+    }
+    80%{
+        background: blue;
+    }
+    100%{
+        background:rgb(2, 183, 255) ;
+    }
+}
+
+
+
+div  a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    transform: translateY(40px);
+    font-weight: 100px;
+}
+div h1{
+    font-size: 9px;
+    letter-spacing: 1px;
+
+}
+.social{
+  list-style: none;
+  text-align: right;
+  position: absolute;top: 40%;left:95%;
+}
+.social li{
+    margin: 20PX;
+}
+.social li a{
+    font-size: 30px;
+}
+.social :hover{
+    color: rgb(87, 87, 78);
+}
+
+.nav li{
+    list-style: none;
+    color: black;
+    font-family: space age;
+    top: 50%;
+    left: 5%;
+    position: absolute;
+    animation: move1 3s linear infinite;
+}
+.nav li:hover{color: gray;}
+
+                                    @keyframes move1{
+                                        0%{position: absolute;top: 50%;left: 5%; }
+                                        50%{position: absolute;top: 50%;left:8%;}   
+                                    }
+    
+    .text{
+        color: black;
+        text-align: center;
+        font-family:kremlin;
+        position: absolute;top: 35%;left: 60%;
+        font-size: 30px;   
+        list-style: none;
+    }
+    .mad{
+        text-align: center;
+        position: absolute;top: 94%;left: 45%;
+        font-size: 12px;
+    }
+    .tree img {
+        width: 50%;      
+         position: absolute;left: 56%;top: 20%;
+         animation: move 2s ease-in-out infinite;
+    }
+    @keyframes move{
+       0%{position: absolute;left: 56%;top: 20%;}
+       50%{position: absolute;left: 56%;top: 22%;}
+    }
+  

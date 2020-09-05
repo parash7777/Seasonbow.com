@@ -8,6 +8,14 @@
 }
 #logoshop a i:hover{color: gray;
 }
+@font-face{
+  font-family:Good Times;
+  src: url(goodtimesrg.ttf);
+}
+@font-face{
+  font-family:space age;
+  src: url(spaceage.ttf);
+}
 
 
 .logo{
